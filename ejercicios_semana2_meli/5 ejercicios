@@ -1,0 +1,71 @@
+#Ejemplo 1 con print.py>
+
+print("Ejemplo 1\n")
+
+# Instruccion 1
+nombre = "Meli"
+
+# Instruccion 2
+edad = 18
+
+# Instruccion 3
+print("Hola, soy", nombre)
+
+# Instruccion 4
+print("Tengo", edad, "anios")
+
+
+#Ejemplo 2 con print
+#2. Nueva Linea (\n)
+print("\nEjemplo 2\n")
+
+# Sin \n (todo en una linea)
+print("Hola Mundo")
+# Salida: Hola Mundo
+
+# Con \n (salto de linea)
+print("Hola\Mundo")
+
+# Multiples \n
+print("Linea 1\nLinea 2\nLinea 3")
+
+
+
+#Ejemplo 3 con tabulacion
+print("\nEjemplo 3\n")
+
+print("Nombre:\tMeli")
+print("Edad:\t18")
+print("Ciudad:\tMonterrey")
+
+#Ejemplo 4 con tabulacion
+print("\nEjemplo 4\n")
+
+# Crear una conversacion de chat
+print("Dariela:\tHola, como estas?")
+print("Meli:\tBien, y tu?")
+print("Dariela:\tGenial!\n")
+print("===== Chat guardado en =====")
+print("C:\\Users\\studiocode_meli\\Documents\\chat.txt")
+
+
+
+# Ejemplo 5
+print("\nEjemplo 5\n")
+
+# Dos argumentos
+print("Hola", "Mundo")
+# Salida: Hola Mundo
+#             ^
+#           espacio automatico
+
+# Tres argumentos
+print("Me", "gusta", "pintar")
+
+# Mezclando tipos de datos
+print("Tengo", 3, "mascotas en mi casa")
+
+# Con variables
+nombre = "Meli"
+cantidad_hermanos = 2
+print("Me dicen", nombre, "y tengo", cantidad_hermanos, "hermanos")
