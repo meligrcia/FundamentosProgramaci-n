@@ -1,0 +1,42 @@
+# Escribe tu funcion aqui
+def mostrar_perfil():
+    print("Usuario: @itsmeligrcia")
+    print("Seguidores: 473")
+    print("Bio: LifeStyle")
+
+# Pruebala (llamala 2 veces)
+mostrar_perfil()
+print()  # Linea en blanco para separar
+mostrar_perfil()
+
+
+# Escribe tu funcion aqui
+def calcular_horas_tiktok(minutos_por_dia):
+    minutos_totales = minutos_por_dia * 7
+    horas_totales = minutos_totales / 60
+    return horas_totales
+
+# Pruebala con diferentes valores
+horas = calcular_horas_tiktok(30)  # 30 minutos por dia
+print(f"Ves {horas} horas de Tiktok a la semana")
+
+horas2 = calcular_horas_tiktok(60)  # 60 minutos por dia
+print(f"Ves {horas2} horas en Tiktok a la semana")
+
+
+# Escribe tu funcion aqui
+def puedo_comprar(dinero_que_tengo, precio_producto):
+    if dinero_que_tengo >= precio_producto:
+        return "Si puedes comprarlo"
+    else:
+        return "No te alcanza"
+
+# Pruebala con diferenres casos
+resultado1 = puedo_comprar(500, 300)  # Tengo $500, cuesta $300
+print(f"Tenis nuevos: {resultado1}")
+
+resultado2 = puedo_comprar(150, 800)  # Tengo $150, cuesta $800
+print(f"Celular nuevo: {resultado2}")
+
+resultado3 = puedo_comprar(100, 100)  # Tengo $100, cuesta $100
+print(f"Audifonos: {resultado3}")
